@@ -32,7 +32,7 @@ public class CollegeServiceImpl implements CollegeService {
 
 	/*
 	 * Method signature should exactly be the same. For testing purpose you can stop
-	 * any one the service(Student-Service Or Attendance-Service).
+	 * any one of the services(Student-Service Or Attendance-Service).
 	 */
 	public StudentData studentDataFallback(Integer studentId) {
 		System.out.println("Fallback method executed...");
